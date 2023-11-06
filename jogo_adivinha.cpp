@@ -22,7 +22,7 @@ int main(){
         if (numSorte > num){
             cout << "O número é maior que:" << num << endl;
         } else if (numSorte < num){
-            cout << "O número é menor que" << num << endl;
+            cout << "O número é menor que:" << num << endl;
         } else{
             cout << "Parabéns " << name << endl;
             cout << "acertaste o número!" << endl;
