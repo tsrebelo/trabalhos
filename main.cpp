@@ -41,8 +41,11 @@ int main(){
     }
     cout << endl;
 
-    cout << ""
-
+    cout << "Deseja gerar uma nova chave? (s/n)" << endl;
+    cin >> resposta;
+    } while ( resposta == 's' | resposta == 'S');
+    if (resposta == 'n' | resposta == 'N'){
+        cout << "Obrigada por jogar!" << endl;
     }
 
     return 0;
