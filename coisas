@@ -1,0 +1,3 @@
+ls
+cd Documentos
+git clone "repositório do git"
